@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "marau-bike": {
+      "hosting": {
+        "MarauBike": [
+          "marau-bike"
+        ]
+      }
+    }
+  }
+}

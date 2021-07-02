@@ -1,0 +1,19 @@
+<mat-toolbar color="accent">
+    <span>Marau Bike</span>
+    
+    <span class="example-spacer"></span>
+    <div *ngIf="serviceAuth.isLoggedIn">
+
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Item 1</button>
+        <button mat-menu-item>Item 2</button>
+      </mat-menu>
+
+    </div>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
